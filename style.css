@@ -1,30 +1,81 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333; /* Darker text color for contrast */
+    margin: 0;
+    padding: 20px;
 }
 
 .container {
-    max-width: 600px;
-    margin: 0 auto; /* Center the container */
+    max-width: 600px; /* Limit width for readability */
+    margin: 40px auto; /* Center the container */
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center; /* Center text inside the container */
 }
 
 h1 {
-    text-align: center;
-    color: #4a4a4a;
+    font-family:SpaceGrotesk-Light;
+color:#fff;
+line-height: 1.2;
+    font-weight: 500;
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+h2 {
+    font-family:SpaceGrotesk-Medium;
+    max-width: 520px;
+    text-transform: uppercase;
+color:#fff;
+font-size: 16px;
 }
 
-a {
-    text-decoration: none; /* Remove underline */
-    color: #007bff; /* Link color */
-    transition: color 0.3s; /* Transition effect for hover */
+.static-text-box {
+    padding: 15px;
+    border: 1px solid #e3e3e3; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fafafa; /* Very light background inside the box */
+    margin-top: 20px; /* Space above the text box */
 }
 
-a:hover {
-    color: #0056b3; /* Darker shade on hover */
+.text-item {
+    display: flex;
+    justify-content: space-between; /* Space between text and button */
+    align-items: center; /* Center items vertically */
+    margin: 10px 0; /* Space between items */
+}
+
+button {
+    padding: 8px 12px; /* Comfortable button sizing */
+    background-color: #007bff; /* Primary blue color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+pre {
+    background-color: #ffffff; /* White background for preformatted text */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+    padding: 10px;
+    overflow: auto; /* Allow scrolling for overflow content */
+    white-space: pre-wrap; /* Preserves whitespace and wraps text */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code-like text */
+}
+
+.alert {
+    background-color: #d1e7dd; /* Light green background for alerts */
+    color: #0f5132; /* Dark green text color */
+    padding: 10px;
+    border: 1px solid #badbcc; /* Border matching the alert background */
+    border-radius: 5px;
+    margin: 10px 0; /* Space above and below alert */
 }
