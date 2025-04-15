@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #4a4a4a;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Link color */
+    transition: color 0.3s; /* Transition effect for hover */
+}
+
+a:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
